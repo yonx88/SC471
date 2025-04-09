@@ -1,0 +1,115 @@
+body {
+    margin: 0px !important;
+}
+
+.container {
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+
+.green-row {
+    background-color: darkseagreen;
+    padding: 20px;
+}
+
+.green-row a:any-link{
+    color: red;
+}
+.green-row a:visited {
+    color: red;
+}
+.green-row a:hover{
+    color:blue;
+}
+.green-row a:active{
+    color:aquamarine;
+}
+
+.grey-row {
+    background-color: rgb(65, 65, 65);
+    padding: 20px;
+}
+
+.grey-row a:any-link {
+    color: orange;
+}
+.grey-row a:visited {
+    color: orange;
+}
+.grey-row a:hover{
+    color:blue;
+}
+.grey-row a:active{
+    color:aquamarine;
+}
+
+
+
+
+.black-row {
+    background-color: black;
+    padding: 20px;
+}
+.black-row a:any-link {
+    color: white;
+}
+.black-row a:visited {
+    color: white;
+}
+.black-row a:hover{
+    color:blue;
+}
+.black-row a:active{
+    color:aquamarine;
+}
+
+
+
+
+h1 {
+    font-size: 40px;
+    padding: 10px;
+}
+
+.header-green {
+    background-color: beige;
+    color: green;
+}
+
+.header-blue {
+    background-color: cadetblue;
+    color: white;
+}
+
+.container0{
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    width: 100%;
+}
+.container1{
+    width: 20%;
+}
+.container2{
+    text-align: center;
+    padding: 10px;
+}
+table,
+th,
+td {
+    border: 1px solid;
+}
+td{
+    text-align: center;
+    padding: 3px;
+}
+.table1{
+    border-collapse: collapse;
+}
+
+img {
+    width: 200px;
+}
