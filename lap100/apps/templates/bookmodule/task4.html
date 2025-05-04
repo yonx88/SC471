@@ -1,0 +1,13 @@
+<h1>Departments with More Than Two Students</h1>
+<table>
+    <tr>
+        <th>Department Name</th>
+        <th>Number of Students</th>
+    </tr>
+    {% for department in departments %}
+    <tr>
+        <td>{{ department.name }}</td>
+        <td>{{ department.num_students }}</td>
+    </tr>
+    {% endfor %}
+</table>

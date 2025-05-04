@@ -1,0 +1,13 @@
+<h1>Oldest Students in Each Department</h1>
+<table>
+    <tr>
+        <th>Department Name</th>
+        <th>Oldest Student</th>
+    </tr>
+    {% for item in oldest_students %}
+    <tr>
+        <td>{{ item.department }}</td>
+        <td>{{ item.oldest_student }}</td>
+    </tr>
+    {% endfor %}
+</table>

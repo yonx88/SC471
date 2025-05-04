@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+{% load static %}
+
+<head>
+    <title>links page</title>
+    <meta name="keywords" content="Books, recent, Learning, library">
+    <meta name="description" content="Books website">
+    <meta name="author" content="author name">
+    <link rel="icon" href="{% static 'qu-icon.png' %}">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="{% static 'main.css' %}"> <!-- include css file -->
+
+</head>
+
+<body>
+    <div class="container0">
+        <div class="container1">
+            <strong>Table 1: Table of Fruits and Their Prices</strong>
+            <table>
+                <tr>
+                    <td><strong>Fruit</strong></td>
+                    <td><strong>Price</strong></td>
+                </tr>
+                <tr>
+                    <td>Apple</td>
+                    <td>$0.25</td>
+                </tr>
+                <tr>
+                    <td>Orange</td>
+                    <td>$0.50</td>
+                </tr>
+                <tr>
+                    <td>Bannana</td>
+                    <td>$1.00</td>
+                </tr>
+                <tr>
+                    <td>Pineapple</td>
+                    <td>$2.00</td>
+                </tr>
+                <tr>
+                    <strong>
+                        <td><strong>Total</strong></td>
+                        <td><strong>$3.75</strong></td>
+                    </strong>
+                </tr>
+            </table>
+        </div>
+        <div class="container2">
+            Table2: A more complex sample
+            <table class="table1">
+                <tr>
+                    <td rowspan="2">
+                        <img src="{% static 'desert.webp' %}" />
+                    </td>
+                    <td colspan="4"><strong>Camelid Comparsion Approximate as of 6/2011</strong></td>
+                </tr>
+                <tr>
+                    <td><strong># of humps</strong></td>
+                    <td><strong>Inigenous region</strong></td>
+                    <td><strong>Sptits?</strong></td>
+                    <td><strong>Produce wool?</strong></td>
+                </tr>
+                <tr>
+                    <td><strong>Dromedary</strong></td>
+                    <td>1</td>
+                    <td>Arabian Peninsula</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td><strong>Camels (bactrian)</strong></td>
+                    <td>2</td>
+                    <td>Africa/Asia</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+                <tr>
+                    <td><strong>Llamas (bactrian)</strong></td>
+                    <td>1</td>
+                    <td>Andes Mountains</td>
+                    <td>Yes</td>
+                    <td>Yes</td>
+                </tr>
+            </table>
+        </div>
+    </div>
+</body>
+
+
+
+</html>

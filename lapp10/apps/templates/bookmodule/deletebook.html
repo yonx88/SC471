@@ -1,0 +1,7 @@
+
+<form method="post">
+    {% csrf_token %}
+
+    do you really want to remove {{book.title}} ?
+    <button type="submit">remove Book</button>
+</form>

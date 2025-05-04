@@ -1,0 +1,8 @@
+<a href="{% url 'books.lab9_addbook'%}">+ Add new book</a>
+<hr>
+{% for obj in books %}
+ID: {{obj.id}}, Title: {{obj.title}}, Price: {{obj.price}}, Edition: {{obj.Edition}}
+<a target="_self" href="{% url 'books.lab9_updatebook' obj.id %}">edit</a>
+<a href="{% url 'books.lab9_deletebook' obj.id %}">-delete</a>
+<hr>
+{%endfor%}
